@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 10px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #fffff0;
+}
+
+body {
+    background-color: rgb(214, 214, 214);
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.judul {
+  text-align: center;
+  justify-content: center;
+}
+.judul h1 {
+  color: #fffff0;
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.masukan-buku {
+  color: #fffff0;
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.masukan-buku form {
+  color: #fffff0;
+  background-color: lightblue;
+  border-radius: 25px;
+}
+
+label p {
+  color: #fffff0;
+}
+
+input {
+  padding: 5px;
+  color: black;
+}
+
+.cari-buku {
+  color: #fffff0;
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.check-btn {
+    display: flex;
+    left: 0;
+}
+
+h3 {
+  text-align: center;
+}
+
+button {
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 50px;
+    color: rgb(7, 7, 7);
+}
+
+button:hover {
+    background-color: rgb(79, 196, 157);
+    padding: 11px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.cari {
+    padding: 5px 2px;
+}
+
+.cari:hover {
+    background-color: rgb(79, 196, 157);
+    padding: 5px 2px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+}
+
+i {
+    color: black;
+}
+
+.belum-dibaca {
+    color: #fffff0;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+
+
+  .selesai-dibaca {
+    color: #fffff0;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+  }
